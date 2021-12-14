@@ -83,80 +83,7 @@ flex-direction: column;
     color: brown;
 }
 
-/*********************************************/
 
-
-header{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    padding: 0 20px; 
-    background-image: url(../media/soldier-l.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#left-div{
-    max-width: 50%;
-    
-}
-#right-div{
-    max-width: 50%;
-    margin-bottom: 200px;
-}
-#right-div-title{
-    font-size: 50px; padding: 50px;
-}
-#wwii-span{
-    color: brown;
-}
-#header-p{
-    font-size: 20px;
-    
-}
-.button {
-    display: inline-block;
-    border-radius: 8px;
-    background-color: rgba(63, 63, 63, 0.8);
-    border: none;
-    color: #ffffff;
-    text-align: center;
-    font-size: 28px;
-    padding: 10px;
-    width: 250px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin-top: 20px;
-  }
-  
-  .button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .button:hover span {
-    padding-right: 25px;
-    color: brown;
-  }
-  
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
 
 main{
     display: flex;
@@ -175,56 +102,6 @@ main{
     color: white;
 
 }
-#main-R-div{
-    width: 50%;
-    height: 85vh;
-background-color: rgba(0, 0, 0,0.5);
-padding: 10px;
-margin: 10px;
-border-radius: 5px;
-font-size: 20px;
-
-
-}
-
-#main-L-div{
-    width: 50%;
-    height: 85vh;
-background-color: rgba(0, 0, 0,0.5);
-padding: 10px;
-border-radius: 5px;
-margin: 10px;
-font-size: 20px;
-
-}
-.img-div img{
-    margin-top: 50px;
-    max-height: 500px;
-    width: 500px;
-    border-radius: 8px;
-
-}
-div #read-more-btn {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    width:250px;
-  text-decoration  : none;
-}
-#read-more-btn {
-    background-color: white;
-    color: black;
-    border: 2px solid #555555;
-    margin-top:20px;
-    text-decoration  : none;
-    padding: 10px;
-    border-radius: 8px;
-  }
-  
-  #read-more-btn:hover {
-    background-color: #555555;
-    color: white;
-  }
 
 footer{
     background-color: rgb(88, 88, 88);
