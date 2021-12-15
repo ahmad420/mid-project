@@ -9,13 +9,14 @@ main{
     margin-top: 5px;
 color: brown;    
 font-size: 40px;
+
 }
 
 
 .container{
   position: relative;
   width:395px;
-  height:600px;
+  height:650px;
   background:#121212;
   border-radius:20px;
   box-shadow:0 6px 20px rgba(0,0,0,.4);
@@ -23,10 +24,10 @@ font-size: 40px;
 }
 .bg-img{
   position: absolute;
-  top:-40px;
+  top:-0px;
   width:100%;
   height:300px;
-  background:url("../media/Allies.jpg") center / cover;
+  background:url("../media/6.jpg") center / cover;
 }
 .container::before{
   content:"";
@@ -78,6 +79,8 @@ form button{
   font-size:16px;
   font-weight:bolder;
   font-family: 'Poppins', sans-serif;
+  min-height:45px;
+
 }
 .content p{
   width:260px;

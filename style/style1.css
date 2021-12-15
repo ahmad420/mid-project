@@ -13,7 +13,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 180vh;
+    height: fit-content;
 }
 iframe{
     margin-top: 100px;
